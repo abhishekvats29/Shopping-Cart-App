@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.item {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  margin: 15px;
+  padding: 20px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: linear-gradient(135deg, #81ecec, #74b9ff);
+  color: #fff;
+}
+
+.item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item p {
+  margin: 10px 0;
+  color: #dfe6e9;
+}
+
+.item button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #fd79a8;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+.item button:hover {
+  background-color: #e84393;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.purchased-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.purchased-list li {
+  margin: 8px 0;
+  padding: 10px;
+  background-color: #ffeaa7;
+  border-radius: 6px;
+  display: inline-block;
+  width: 200px;
+  color: #2d3436;
+  position: relative;
+}
+
+.delete-button {
+    
+    color: blue;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .delete-button:hover {
+    background-color: #e74c3c;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .delete-button:active {
+    background-color: #c0392b;
+    transform: scale(0.9);
+  }
+  
