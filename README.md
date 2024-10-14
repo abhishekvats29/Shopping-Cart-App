@@ -1,6 +1,6 @@
 # Shopping Cart Application
 ## ReactJS-Redux Toolkit Shopping Cart: 
-#### This project uses ReactJS and Redux Toolkit to build a shopping cart where users can add items, view their cart, and see the total amount deducted from their cart when they purchase itemss.
+#### This project uses ReactJS and Redux Toolkit to build a shopping cart where users can add items, view their cart, and see the total amount deducted from their cart when they purchase items.
 
 ## Key Features:
 #### Product Catalog: Displays available products with images, descriptions, and prices.
